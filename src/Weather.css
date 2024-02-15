@@ -1,0 +1,21 @@
+#app-div{
+    background-image: url("./imgs/sunbg.jpg");
+    height: 1000px;
+    width: 100%;
+}
+#btn{
+    background-image: url("./imgs/weatherbg.jpg");
+    width: 100px;
+    color: rgb(14, 14, 14);
+    font-style: italic;
+    margin-left: 5px;
+    border: solid black .5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.result{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+}
+#para{
+    font-family: 'Courier New', Courier, monospace;
+}
