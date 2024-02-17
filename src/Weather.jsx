@@ -28,8 +28,8 @@ function getWeather(){
     return(
         <div id="app-div" className=" p-2">
             <center>
-<div className=" p-5 rounded-lg">
-    <h1 style={{fontFamily:"fantasy"}}>Weather Report <i class="fa-solid fa-bolt"></i></h1>
+<div className=" p-5 rounded-lg pt-32">
+    <h1 style={{fontFamily:"fantasy",color:"viole"}} className="text-2xl text-violet-500">Weather Report <i class="fa-solid fa-bolt"></i></h1>
     <p id="para">I can give you a wether report about a city !</p>
 <input onChange={handleCity} placeholder="Enter a City" className="mt-2 border border-black rounded-md p-1 outline-none"></input>
 <button id="btn" onClick={getWeather} className="bg-black text-white p-1 rounded-md mt-2 text-[12px]"><b>Get Weather</b></button>

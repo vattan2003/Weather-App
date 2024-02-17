@@ -2,6 +2,7 @@
     background-image: url("./imgs/sunbg.jpg");
     height: 1000px;
     width: 100%;
+    
 }
 #btn{
     background-image: url("./imgs/weatherbg.jpg");
@@ -18,4 +19,8 @@
 }
 #para{
     font-family: 'Courier New', Courier, monospace;
+    color: rgb(61, 113, 5);
+    font-size: large;
+    font-weight: 600;
+    
 }
